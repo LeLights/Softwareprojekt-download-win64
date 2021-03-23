@@ -1,0 +1,424 @@
+{
+  "other": [
+    "Du hast es tatsächlich rausgeschafft. Respekt. Jetzt können wir endlich weiter."
+  ],
+  "responses": [
+    [
+      "Und jetzt?",
+      "Was passiert nun?"
+    ],
+    [
+      "Ja, das habe ich endlich!",
+      "Zum Glück, war keine leichte Zeit."
+    ]
+  ],
+  "func_kw": [0, 0],
+  "following": [
+    {
+      "other": [
+        "Jetzt machen wir uns auf die Suche nach dem Schatz, oder hast du schon vergessen, warum du verhaftet wurdest?",
+        "Das soll wohl ein Witz sein, wir suchen natürlich nach dem Schatz. Deswegen warst du doch überhaupt erst in Ebon."
+      ],
+      "responses": [
+        ["Irgendwie habe ich nicht mehr ganz im Kopf, was unser Plan war."],
+        ["Ach ja stimmt, dann mal los! (Spielende)"]
+      ],
+      "func_kw": [0, "call_score"],
+      "following": [
+        {
+          "other": [
+            "Das hört sich nicht gut an. Wir haben doch extra Captain Spok ausgeraubt um an die Daten zu kommen, wir können nun endlich den Schatz der Urväter finden.",
+            "Du weißt also nicht mehr, dass wir gegen Captain Spok gekämpft haben und dabei die Koordinaten des Schatzes der Urväter fanden?"
+          ],
+          "responses": [
+            ["Daran erinnere ich mich leider gar nicht mehr. Was machen wir jetzt?"],
+            ["Du hast die Daten doch sicher irgendwo gesichert, oder nicht?"]
+          ],
+          "func_kw": [0, 0],
+          "following": [
+            {
+              "other": [
+                "Jetzt haben wir ein Problem, denn du warst der Einzige, der die Koordinaten kennt.",
+                "Das macht die Sache echt zu einem Problem, nur du kennst die Koordinaten."
+              ],
+              "responses": [
+                [
+                  "Wie gehen wir jetzt vor?",
+                  "Was machen wir denn jetzt?"
+                ]
+              ],
+              "func_kw": [0],
+              "following": [
+                {
+                  "other": [
+                    "Wir machen uns auf den Weg zu Oraka, sie kann deine Gedanken und Erinnerungen lesen.",
+                    "Uns bleibt nichts anderes übrig, als zu Oraka zu gehen, damit sie deine Erinnerungen offenbaren kann."
+                  ],
+                  "responses": [
+                    ["Das hört sich nicht gut an, um ehrlich zu sein."],
+                    ["Na dann, los geht's. Auf zu Oraka! (Spielende)"]
+                  ],
+                  "func_kw": [0, "call_score"],
+                  "following": [
+                    {
+                      "other": [
+                        "Uns bleibt nichts anderes übrig, wir müssen es probieren.",
+                        "Wenn wir es nicht probieren, war unsere ganze Arbeit um sonst."
+                      ],
+                      "responses": [
+                        ["Gibt es wirklich keine andere Möglichkeit?"],
+                        ["Stimmt, du hast Recht, wir probieren unser Bestes. (Spielende)"]
+                      ],
+                      "func_kw": [0, "call_score"],
+                      "following": [
+                        {
+                          "other": [
+                            "Wir könnten auch probieren, erneut bei Captain Spok einzubrechen und die Daten zu stehlen, aber ich denke, das wird schiefgehen."
+                          ],
+                          "responses": [
+                            ["Dann lieber Oraka, probieren wir's. (Spielende)"]
+                          ],
+                          "func_kw": ["call_score"],
+                          "following": [
+                            {
+                              "other": [
+                                "DEBUG OTHER"
+                              ],
+                              "responses": [
+                                "DEBUG RESPONSE"
+                              ],
+                              "following": [],
+                              "func_kw": [0]
+                            }
+                          ]
+                        },
+                        {
+                          "other": [
+                            "DEBUG OTHER"
+                          ],
+                          "responses": [
+                            "DEBUG RESPONSE"
+                          ],
+                          "following": [],
+                          "func_kw": [0]
+                        }
+                      ]
+                    },
+                    {
+                      "other": [
+                        "DEBUG OTHER"
+                      ],
+                      "responses": [
+                        "DEBUG RESPONSE"
+                      ],
+                      "following": [],
+                      "func_kw": [0]
+                    }
+
+                  ]
+                }
+              ]
+            },
+            {
+              "other": [
+                "Nein, du bist der Einzige, neben Captain Spok, der sie kennt.",
+                "Leider nicht, du wurdest geschnappt, als du mir sie sagen wolltest."
+              ],
+              "responses": [
+                [
+                  "Wie gehen wir jetzt vor?",
+                  "Was machen wir denn jetzt?"
+                ]
+              ],
+              "func_kw": [0],
+              "following": [
+                {
+                  "other": [
+                    "Wir machen uns auf den Weg zu Oraka, sie kann deine Gedanken und Erinnerungen lesen.",
+                    "Uns bleibt nichts anderes übrig, als zu Oraka zugehen, damit sie deine Erinnerungen offenbaren kann."
+                  ],
+                  "responses": [
+                    ["Das hört sich nicht gut an, um ehrlich zu sein."],
+                    ["Na dann los gehts, auf zu Oraka! (Spielende)"]
+                  ],
+                  "func_kw": [0, "call_score"],
+                  "following": [
+                    {
+                      "other": [
+                        "Uns bleibt nichts anderes übrig, wir müssen es probieren.",
+                        "Wenn wir es nicht probieren, war unsere ganze Arbeit um sonst."
+                      ],
+                      "responses": [
+                        ["Gibt es wirklich keine andere Möglichkeit?"],
+                        ["Stimmt, du hast Recht, wir probieren unser Bestes. (Spielende)"]
+                      ],
+                      "func_kw": [0, "call_score"],
+                      "following": [
+                        {
+                          "other": [
+                            "Wir könnten auch probieren, erneut bei Captain Spok einzubrechen und die Daten zu stehlen, aber ich denke, das wird schiefgehen."
+                          ],
+                          "responses": [
+                            ["Dann lieber Oraka, probieren wirs. (Spielende)"]
+                          ],
+                          "func_kw": ["call_score"],
+                          "following": [
+                            {
+                              "other": [
+                                "DEBUG OTHER"
+                              ],
+                              "responses": [
+                                "DEBUG RESPONSE"
+                              ],
+                              "following": [],
+                              "func_kw": [0]
+                            }
+                          ]
+                        },
+                        {
+                          "other": [
+                            "DEBUG OTHER"
+                          ],
+                          "responses": [
+                            "DEBUG RESPONSE"
+                          ],
+                          "following": [],
+                          "func_kw": [0]
+                        }
+                      ]
+                    },
+                    {
+                      "other": [
+                        "DEBUG OTHER"
+                      ],
+                      "responses": [
+                        "DEBUG RESPONSE"
+                      ],
+                      "following": [],
+                      "func_kw": [0]
+                    }
+
+                  ]
+                }
+              ]
+
+            }
+          ]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ]
+    },
+    {
+      "other": [
+        "Jetzt aber los, wir müssen einen Schatz finden.",
+        "Komm schon, da draußen ist ein Schatz, der auf uns wartet"
+      ],
+      "responses": [
+        ["Irgendwie habe ich nicht mehr ganz im Kopf, was unser Plan war."],
+        ["Ach ja stimmt, dann mal los! (Spielende)"]
+      ],
+      "func_kw": [0, "call_score"],
+      "following": [
+        {
+          "other": [
+            "Das hört sich nicht gut an. Wir haben doch extra Captain Spok ausgeraubt, um an die Daten zu kommen. Wir können nun endlich den Schatz der Urväter finden.",
+            "Du weißt also nicht mehr, dass wir gegen Captain Spok gekämpft haben und dabei die Koordinaten des Schatzes der Urväter fanden?"
+          ],
+          "responses": [
+            ["Daran erinnere ich mich leider gar nicht mehr. Was machen wir jetzt?"],
+            ["Du hast die Daten doch sicher irgendwo gesichert, oder nicht?"]
+          ],
+          "func_kw": [0, 0],
+          "following": [
+            {
+              "other": [
+                "Jetzt haben wir ein Problem, denn du warst der Einzige der die Koordinaten kennt.",
+                "Das macht die Sache echt zu einem Problem, nur du kennst die Koordinaten."
+              ],
+              "responses": [
+                [
+                  "Wie gehen wir jetzt vor?",
+                  "Was machen wir denn jetzt?"
+                ]
+              ],
+              "func_kw": [0],
+              "following": [
+                {
+                  "other": [
+                    "Wir machen uns auf den Weg zu Oraka, sie kann deine Gedanken und Erinnerungen lesen.",
+                    "Uns bleibt nichts anderes übrig, als zu Oraka zugehen, damit sie deine Erinnerungen offenbaren kann."
+                  ],
+                  "responses": [
+                    ["Das hört sich nicht gut an, um ehrlich zu sein."],
+                    ["Na dann los gehts, auf zu Oraka! (Spielende)"]
+                  ],
+                  "func_kw": [0, "call_score"],
+                  "following": [
+                    {
+                      "other": [
+                        "Uns bleibt nichts anderes übrig, wir müssen es probieren.",
+                        "Wenn wir es nicht probieren, war unsere ganze Arbeit um sonst."
+                      ],
+                      "responses": [
+                        ["Gibt es wirklich keine andere Möglichkeit?"],
+                        ["Stimmt, du hast Recht, wir probieren unser Bestes. (Spielende)"]
+                      ],
+                      "func_kw": [0, "call_score"],
+                      "following": [
+                        {
+                          "other": [
+                            "Wir könnten auch probieren, erneut bei Captain Spok einzubrechen und die Daten zu stehlen, aber ich denke, das wird schiefgehen."
+                          ],
+                          "responses": [
+                            ["Dann lieber Oraka, probieren wir's. (Spielende)"]
+                          ],
+                          "func_kw": ["call_score"],
+                          "following": [
+                            {
+                              "other": [
+                                "DEBUG OTHER"
+                              ],
+                              "responses": [
+                                "DEBUG RESPONSE"
+                              ],
+                              "following": [],
+                              "func_kw": [0]
+                            }
+                          ]
+                        },
+                        {
+                          "other": [
+                            "DEBUG OTHER"
+                          ],
+                          "responses": [
+                            "DEBUG RESPONSE"
+                          ],
+                          "following": [],
+                          "func_kw": [0]
+                        }
+                      ]
+                    },
+                    {
+                      "other": [
+                        "DEBUG OTHER"
+                      ],
+                      "responses": [
+                        "DEBUG RESPONSE"
+                      ],
+                      "following": [],
+                      "func_kw": [0]
+                    }
+
+                  ]
+                }
+              ]
+            },
+            {
+              "other": [
+                "Nein, du bist der Einzige, neben Captain Spok, der sie kennt.",
+                "Leider nicht, du wurdest geschnappt, als du mir sie sagen wolltest."
+              ],
+              "responses": [
+                [
+                  "Wie gehen wir jetzt vor?",
+                  "Was machen wir denn jetzt?"
+                ]
+              ],
+              "func_kw": [0],
+              "following": [
+                {
+                  "other": [
+                    "Wir machen uns auf den Weg zu Oraka, sie kann deine Gedanken und Erinnerungen lesen.",
+                    "Uns bleibt nichts anderes übrig, als zu Oraka zu gehen, damit sie deine Erinnerungen offenbaren kann."
+                  ],
+                  "responses": [
+                    ["Das hört sich nicht gut an, um ehrlich zu sein."],
+                    ["Na dann los gehts, auf zu Oraka! (Spielende)"]
+                  ],
+                  "func_kw": [0, "call_score"],
+                  "following": [
+                    {
+                      "other": [
+                        "Uns bleibt nichts anderes übrig, wir müssen es probieren.",
+                        "Wenn wir es nicht probieren, war unsere ganze Arbeit um sonst."
+                      ],
+                      "responses": [
+                        ["Gibt es wirklich keine andere Möglichkeit?"],
+                        ["Stimmt, du hast Recht, wir probieren unser Bestes. (Spielende)"]
+                      ],
+                      "func_kw": [0, "call_score"],
+                      "following": [
+                        {
+                          "other": [
+                            "Wir könnten auch probieren, erneut bei Captain Spok einzubrechen und die Daten zu stehlen, aber ich denke, das wird schiefgehen."
+                          ],
+                          "responses": [
+                            ["Dann lieber Oraka, probieren wirs. (Spielende)"]
+                          ],
+                          "func_kw": ["call_score"],
+                          "following": [
+                            {
+                              "other": [
+                                "DEBUG OTHER"
+                              ],
+                              "responses": [
+                                "DEBUG RESPONSE"
+                              ],
+                              "following": [],
+                              "func_kw": [0]
+                            }
+                          ]
+                        },
+                        {
+                          "other": [
+                            "DEBUG OTHER"
+                          ],
+                          "responses": [
+                            "DEBUG RESPONSE"
+                          ],
+                          "following": [],
+                          "func_kw": [0]
+                        }
+                      ]
+                    },
+                    {
+                      "other": [
+                        "DEBUG OTHER"
+                      ],
+                      "responses": [
+                        "DEBUG RESPONSE"
+                      ],
+                      "following": [],
+                      "func_kw": [0]
+                    }
+
+                  ]
+                }
+              ]
+
+            }
+          ]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ]
+    }
+  ]
+}

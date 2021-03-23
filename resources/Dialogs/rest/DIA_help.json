@@ -1,0 +1,142 @@
+{
+  "other": [
+    "Wie kann ich dir heute helfen?"
+  ],
+  "responses": [
+    ["Ich habe vergessen, wie das Spiel funktioniert."],
+    ["Ich brauche Hilfe bezüglich der Rätsel."],
+    ["Wie beende ich das Spiel?"]
+  ],
+  "following": [
+    {
+      "other": [
+        "Also alles noch mal ganz langsam erklärt?"
+      ],
+      "responses": [
+        ["Ja, das wäre wohl ganz praktisch."],
+        ["Kurz und knapp reicht denke ich."],
+        ["Naja, das ist wohl doch etwas zu viel. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "Dann fangen wir mal an, du beginnst in deiner Zelle. Dort musst du das erste Rätsel, was dir von Mr. James gestellt wurde, lösen. Wenn du glaubst, es ist richtig, dann gehe zu ihm. Er befindet sich in der Kantine und probiere es zu lösen."
+          ],
+          "responses": [
+            ["Und was passiert danach?"]
+          ],
+          "following": [
+            {
+              "other": [
+                "Dann hast du es entweder richtig oder falsch gelöst. Ist es richtig, dann hast du Glück und ein neuer Raum wird dir geöffnet. In diesem findest du ein neues Rätsel. Ist es aber falsch, dann sieht es nicht gut aus."
+              ],
+              "responses": [
+                ["Was heißt das?"]
+              ],
+              "following": [
+                {
+                  "other": [
+                    "Naja, sagen wir so, hast du es dreimal falsch, war's das für dich. Aber keine Angst, bevor du rätst, kann dir Mr. James auch einen Hinweis geben. Aber pass auf, mit jedem Hinweis sinkt dein Score und damit deine Bewertung am Ende."
+                  ],
+                  "responses": [
+                    ["Ein Ende? Also komme ich raus?"]
+                  ],
+                  "following": [
+                    {
+                      "other": [
+                        "Ja, das kannst du, wenn du genug Zigaretten aus Zellen gesammelt hast, um durch die Tür in der Kantine in den Turm fliehen zu können. Dort findest du einen Teleporter. Dann ist das Spiel beendet und du wirst anhand deiner Leistung im Gefängnis bewertet."
+                      ],
+                      "responses": [
+                        ["Dann probiere ich mal mein Glück! (verlassen)"]
+                      ],
+                      "following": [
+                        {
+                          "other": [
+                            "DEBUG OTHER"
+                          ],
+                          "responses": [
+                            "DEBUG RESPONSE"
+                          ],
+                          "following": [],
+                          "func_kw": [0]
+                        }
+                      ],
+                      "func_kw": ["close"]
+                    }
+                  ],
+                  "func_kw": [0]
+                }
+              ],
+              "func_kw": [0]
+            }
+          ],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "Nun gut. Du musst Rätsel lösen, in jedem Raum eines. Du kannst aber nur einen neuen Raum betreten, wenn du das Rätsel davor bei Mr. James gelöst hast. Wenn du es 3 mal falsch löst, dann hast du verloren."
+          ],
+          "responses": [
+            ["Okay, und wie komme ich raus?"]
+          ],
+          "following": [
+            {
+              "other": [
+                "Während deiner Reise sammelts du Zigaretten, hast du genug, kannst du entkommen."
+              ],
+              "responses": [
+                ["Dann breche ich mal aus. (verlassen)"]
+              ],
+              "following": [
+                {
+                  "other": [
+                    "DEBUG OTHER"
+                  ],
+                  "responses": [
+                    "DEBUG RESPONSE"
+                  ],
+                  "following": [],
+                  "func_kw": [0]
+                }
+              ],
+              "func_kw": ["close"]
+            }
+          ],
+          "func_kw": [0]
+        },
+        {
+      "other": [
+        "DEBUG OTHER"
+      ],
+      "responses": [
+        "DEBUG RESPONSE"
+      ],
+      "following": [],
+      "func_kw": [0]
+    }
+      ],
+      "func_kw": [0, 0, "close"]
+    },
+    {
+      "other": [
+        "Die Rätsel sind manchmal ganz schön knifflig, bevor du rätst und nachher noch verlierst, weil du zu oft falsch lagst, kannst du lieber bei Mr. James einen Tipp anfordern"
+      ],
+      "responses": [
+         ["Okay, dann probiere ich das mal damit. (verlassen)"]
+      ],
+      "following": [],
+      "func_kw": [0]
+    },
+    {
+      "other": [
+        "Das Spiel beendest du, indem du genug Rätsel löst, um alle Zigaretten aus den Zellen einzusammeln. Mit diesen öffnest du die Tür zum Turm der Kantine, wodurch du entkommen kannst."
+      ],
+      "responses": [
+        ["Das kann ja noch ganz schön lange dauern... (verlassen)"]
+      ],
+      "following": [],
+      "func_kw": [0]
+    }
+  ],
+  "func_kw": [0, 0, 0]
+}

@@ -1,0 +1,52 @@
+{
+  "other": [
+    "Nicht schlecht, hätte nicht gedacht, dass du das schaffst.",
+    "Ich muss sagen, das kam unerwartet, aber das nächste wird schwerer!",
+    "Glaub ja nicht, dass bleibt so leicht.",
+    "Umso weiter du kommst, desto schwerer wird's, vergiss das nicht!",
+    "Wie? Du hast das Rätsel ja echt gelöst bekommen, na dann viel Glück beim nächsten.",
+    "Respekt, viele sind bereits daran gescheitert, aber das wird wohl auch für dich bald der Fall sein.",
+    "Du glaubst echt, du wärest was besonderes? Viele sind bereits so weit gekommen aber dann gescheitert!",
+    "Werd aber nicht zu übermütig, nur weil du es diesesmal geschafft hast, das wird nicht so bleiben!",
+    "Und jetzt? Glaubst du, ich sei stolz auf dich. Geh lieber wieder und kümmere dich um den Rest!",
+    "Wow, das ist echt nicht leicht gewesen. Viel Glück beim nächsten Rätsel."
+  ],
+  "responses": [
+    ["Ich werde dir schon beweisen, dass ich es schaffen kann."],
+    ["Du wirst schon sehen, ich komme hier raus!"],
+    ["Du hast mir gar nichts zu sagen."]
+  ],
+  "following": [
+    {
+      "other": [
+        "DEBUG OTHER"
+      ],
+      "responses": [
+        "DEBUG RESPONSE"
+      ],
+      "following": [],
+      "func_kw": [0]
+    },
+    {
+      "other": [
+        "DEBUG OTHER"
+      ],
+      "responses": [
+        "DEBUG RESPONSE"
+      ],
+      "following": [],
+      "func_kw": [0]
+    },
+    {
+      "other": [
+        "DEBUG OTHER"
+      ],
+      "responses": [
+        "DEBUG RESPONSE"
+      ],
+      "following": [],
+      "func_kw": [0]
+    }
+  ],
+  "func_kw": ["close", "close","onpolite_and_close_5"]
+}

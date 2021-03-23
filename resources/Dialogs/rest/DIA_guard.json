@@ -1,0 +1,77 @@
+{
+  "other": [
+    "Hast du schon die 4 Zigaretten für mich?",
+    "Hast du schon das, was ich wollte?"
+  ],
+  "responses": [
+    ["Ja, natürlich."],
+    ["Nein, noch nicht."]
+  ],
+  "following": [
+    {
+      "other": [
+        "Das ist eine Lüge! Such lieber weiter, bevor ich dich gar nicht mehr durchlassen werde."
+      ],
+      "responses": [
+        ["Ja, ich suche weiter. (verlassen)"],
+        ["Tut mir leid, da habe ich mich wohl vertahn. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["close", "opolite_and_close_2"]
+    },
+    {
+      "other": [
+        "Was hast du dann bei mir zu suchen? Mit weniger als 4 gebe ich mich nicht zufrieden."
+      ],
+      "responses": [
+        ["Tut mir leid, ich dachte, ich hätte schon 4. (verlassen)"],
+        ["Ich suche lieber weiter. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["close", "opolite_and_close_2"]
+    }
+  ],
+  "func_kw": [0, 0]
+}

@@ -1,0 +1,88 @@
+{
+  "other": [
+    "Was willst denn du?",
+    "Was willst du hier?",
+    "Hast du ein Problem?"
+  ],
+  "responses": [
+    ["Ich habe das Sudoku gelöst!"],
+    ["Irgendwie komme ich nicht weiter, kannst du mir helfen?"],
+    ["Entschuldige die Störung, ich gehe schon wieder."]
+  ],
+  "following": [
+    {
+      "other": [
+        "Soso. Vollständig gelöst sagst du? Und du glaubst, du hast es auch richtig gemacht?",
+        "Bist du dir auch sicher, dass du nichts falsch gemacht hast?",
+        "Das hoffe ich für dich, aber denk dran, lüg mich nicht an! Also, willst du mir sagen, was du denkst?"
+      ],
+      "responses": [
+        ["Ich bin überzeugt davon, dass ich es richtig gelöst habe. (Code eingeben)"],
+        ["Vielleicht überprüfe ich das doch nochmal, bis bald! (verlassen)"]
+      ],
+      "following": [],
+      "func_kw": ["open_riddle_input_sudoku", 0]
+    },
+    {
+      "other": [
+        "War ja wieder klar, das DU es nicht gelöst bekommst, aber diesmal muss ich dich enttäuschen. Ein Sudoku wirst du ja wohl selbst gelöst bekommen.",
+        "Du fragst mich jetzt nicht ernsthaft nach Hilfe bei einem Sudoku? Das lernt man doch schon in der Grundschule.",
+        "Wie, du kommst nicht weiter?! Du musst doch nur ein paar Zahlen raussuchen, wie schwer kann das schon sein."
+      ],
+      "responses": [
+        ["Ich weiß doch nicht mal, wie Sudokus gelöst werden."],
+        ["Jetzt sag schon, sonst snitch ich dich bei den Wärtern!"],
+        ["Brauchst ja nicht gleich unhöfflich werden, dann probiere ich es eben selbst."]
+      ],
+      "func_kw": ["unpolite_2", "unpolite_7", "unpolite_4"],
+      "following": [
+        {
+          "other": [
+            "Dann suche mal lieber wo anders, wie man das löst und nerv mich nicht!",
+            "Jetzt verarscht du mich aber, oder? Du willst entkommen, ohne zu wissen, wie man einfache Sudokus löst? Geh mir aus den Augen!"
+          ],
+          "responses": [
+            ["(verlassen)"]
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "Hör mal Jungchen, du bist jetzt erstmal ganz leise und gehst schön in deine Zelle",
+            "Zügel deine Zunge! Du bist in der Rangordnung ganz unten, also verschwinde!",
+            "Ich empfehle dir zu deinem Besten, mir aus den Augen zu gehen!"
+          ],
+          "responses": [
+            ["(verlassen)"]
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "Dann mal bis bald.",
+            "Wir sehen uns!"
+          ],
+          "responses": [
+            ["(verlassen)"]
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ]
+    },
+    {
+      "other": [
+        "Alles gut, komm wieder, wenn du weißt, was du willst.",
+        "Dann mal bis bald."
+      ],
+      "responses": [
+        ["(verlassen)"]
+      ],
+      "following": [],
+      "func_kw": [0]
+    }
+  ],
+  "func_kw": [0, 0, "polite_5"]
+}

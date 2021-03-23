@@ -1,0 +1,76 @@
+{
+  "other": [
+    "Was willst denn du?",
+    "Was willst du hier?",
+    "Hast du ein Problem?"
+  ],
+  "responses": [
+    ["Ich habe dein Mathe-Rätsel gelöst"],
+    ["Irgendwie komme ich nicht weiter, kannst du mir helfen?"],
+    ["Entschuldige die Störung, ich gehe schon wieder."]
+  ],
+  "following": [
+    {
+      "other": [
+        "Soso. Vollständig gelöst sagst du? Und du glaubst, du hast es auch richtig gemacht?",
+        "Bist du dir auch sicher, dass du nichts falsch gemacht hast?",
+        "Das hoffe ich für dich, aber denk dran, lüg mich nicht an! Also, willst du mir sagen, was du denkst?"
+      ],
+      "responses": [
+        ["Ich bin überzeugt davon, dass ich es richtig gelöst habe. (Code eingeben)"],
+        ["Vielleicht überprüfe ich das doch nochmal, bis bald! (verlassen)"]
+      ],
+      "following": [],
+      "func_kw": ["open_riddle_input_uhr", 0]
+    },
+    {
+      "other": [
+        "Das ist doch wirklich nicht schwer. Sicher, dass du dir helfen lassen willst?",
+        "Aber bereue nicht, dass du gefragt hast, eigentlich ist es ganz einfach.",
+        "Das wird aber seine Konsequenzen haben, nur, dass dir das bewusst ist."
+      ],
+      "responses": [
+        ["Ich komme einfach nicht weiter, jetzt hilf mir schon!"],
+        ["Hilf mir, oder ich verpetz dich!"],
+        ["Ich denke, ich probiere es doch lieber nocheinmal selbst. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "Berechne die Diagonale mit Pythagoras."
+          ],
+          "responses": [
+            ["Danke dir für den Hinweis. (verlassen)"]
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["hint", "unpolite_5", "close"]
+    },
+    {
+      "other": [
+        "Alles gut, komm wieder, wenn du weißt, was du willst.",
+        "Dann mal bis bald."
+      ],
+      "responses": [
+        ["(verlassen)"]
+      ],
+      "following": [],
+      "func_kw": [0]
+    }
+
+  ],
+  "func_kw": [0, 0, "polite_2"]
+
+}

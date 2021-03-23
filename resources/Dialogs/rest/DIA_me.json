@@ -1,0 +1,66 @@
+{
+  "other": [
+    "Ich habe ein Rätsel für dich. Willst du es hören?",
+    "Möchtest du meine Knobelaufgabe für dich hören?"
+  ],
+  "responses": [
+    ["Ja gerne!"],
+    ["Nein, ich werde erstmal was anderes tun."]
+  ],
+  "following": [
+    {
+      "other": [
+        "Also gut. Ich denke mir 3 Zahlen. Die Summe der Zahlen ist 14. Die Zahlen sind alle verschieden. Die Zahlen sind kleiner als sieben. Wie lauten die 3 Zahlen in aufsteigender Reihenfolge?"
+      ],
+      "responses": [
+        ["Oh super, dann weiß ich die Zahlen ja direkt. Dankeschön. (verlassen)"],
+        ["Hmm. Da werde ich wohl noch bisschen knobeln müssen. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["opolite_and_close_2", "close"]
+    },
+    {
+      "other": [
+        "Dann geh mal lieber, wenn du mein Rätsel nicht lösen möchtest."
+      ],
+      "responses": [
+        ["(verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["close"]
+    }
+  ],
+  "func_kw": [0, 0]
+}

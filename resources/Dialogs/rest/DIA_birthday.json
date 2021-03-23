@@ -1,0 +1,66 @@
+{
+  "other": [
+    "Ich habe ein Rätsel für dich. Willst du es hören?",
+    "Möchtest du meine Knobelaufgabe für dich hören?"
+  ],
+  "responses": [
+    ["Ja gerne!"],
+    ["Nein, ich werde erstmal was anderes tun."]
+  ],
+  "following": [
+    {
+      "other": [
+        "Na schön, die Lösung ist in TTMM: Vorgestern war ich 17 Jahre alt. Nächstes Jahr feier ich meinen 20. Geburtstag. Wann habe ich Geburtstag?"
+      ],
+      "responses": [
+        ["Oh super, dann weiß ich deinen Geburtstag ja direkt. Dankeschön. (verlassen)"],
+        ["Hmm. Da werde ich wohl noch bisschen knobeln müssen. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["opolite_and_close_2", "close"]
+    },
+    {
+      "other": [
+        "Dann geh mal lieber, wenn du mein Rätsel nicht lösen möchtest."
+      ],
+      "responses": [
+        ["(verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["close"]
+    }
+  ],
+  "func_kw": [0, 0]
+}

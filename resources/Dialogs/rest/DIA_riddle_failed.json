@@ -1,0 +1,48 @@
+{
+  "other": [
+    "Hab ich's mir doch gedacht, du hast es nicht geschafft!",
+    "Probiere es erneut und komme dann nochmal wieder.",
+    "Haha, du hast es nicht geschafft, war auch nicht anders zu erwarten!",
+    "Wie unerwartet... Es war falsch!",
+    "Hast du ernsthaft gedacht, es sei richtig?",
+    "Als ob du dachtest, du hättest es geschafft!"
+  ],
+  "responses": [
+    ["Ich werde dir schon beweisen, dass ich es schaffen kann. (verlassen)"],
+    ["Du wirst schon sehen, ich komme hier raus! (verlassen)"],
+    ["Ich komme wieder und dann mit dem richtigen Ergebnis! (verlassen)"]
+  ],
+  "following": [
+    {
+      "other": [
+        "DEBUG OTHER"
+      ],
+      "responses": [
+        "DEBUG RESPONSE"
+      ],
+      "following": [],
+      "func_kw": [0]
+    },
+    {
+      "other": [
+        "DEBUG OTHER"
+      ],
+      "responses": [
+        "DEBUG RESPONSE"
+      ],
+      "following": [],
+      "func_kw": [0]
+    },
+    {
+      "other": [
+        "DEBUG OTHER"
+      ],
+      "responses": [
+        "DEBUG RESPONSE"
+      ],
+      "following": [],
+      "func_kw": [0]
+    }
+  ],
+  "func_kw": ["close", "onpolite_and_close_2", "close"]
+}

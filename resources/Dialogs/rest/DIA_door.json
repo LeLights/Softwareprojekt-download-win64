@@ -1,0 +1,66 @@
+{
+  "other": [
+    "Willst du etwa hier herein? Das geht noch nicht.",
+    "Willst du etwa durch die Tür? Sie ist verschlossen."
+  ],
+  "responses": [
+    ["Ja, wieso geht das nicht?"],
+    ["Nein, doch noch nicht."]
+  ],
+  "following": [
+    {
+      "other": [
+        "Du hast noch keinen Schlüssel zu dieser Tür erhalten. Der Wärter wählt dir immer eine zufällige neue Zelle aus, die er öffnet."
+      ],
+      "responses": [
+        ["Okay, dann suche ich mir eine offene Zelle. (verlassen)"],
+        ["Tut mir leid, ich habe mich im Raum vertahn. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["close", "close"]
+    },
+    {
+      "other": [
+        "Was hast du dann bei der Tür zu suchen? Hier kannst du noch nicht hinein. Werde lieber besser und schalte dadurch mehr frei. "
+      ],
+      "responses": [
+        ["Tut mir leid, ich gehe schon. (verlassen)"]
+      ],
+      "following": [
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
+        }
+      ],
+      "func_kw": ["close"]
+    }
+  ],
+  "func_kw": [0, 0]
+}

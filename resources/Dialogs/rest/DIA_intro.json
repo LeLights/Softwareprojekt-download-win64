@@ -1,0 +1,541 @@
+{
+  "other": [
+    "Na bist du wach?",
+    "Aufgewacht du Schlafmütze?",
+    "Auch mal da?"
+  ],
+  "responses": [
+    [
+      "Ja, aber ich kann nichts sehen!",
+      "Ich sehe nichts!"
+    ],
+    [
+      "Wer bist du?",
+      "Kenn ich dich?"
+    ]
+  ],
+  "func_kw": [0, 0],
+  "following": [
+    {
+      "other": [
+        "Das ist ganz normal, du wirst bald wieder sehen können.",
+        "Das geht wieder weg."
+      ],
+      "responses": [
+        [
+          "Und wo bin ich?",
+          "Wo befinde ich mich denn?"
+        ]
+      ],
+      "func_kw": [0],
+      "following": [
+        {
+          "other": [
+            "Im Gefängnis Ebon.",
+            "In deiner ganz eigenen Zelle."
+          ],
+          "responses": [
+            [
+              "Warum denn im Gefängnis?",
+              "Was habe ich denn gemacht?"
+            ]
+          ],
+          "func_kw": [0],
+          "following": [
+            {
+              "other": [
+                "Du errinnerst dich nicht? Du wurdest wegen Weltraumpiraterie verurteilt!",
+                "Du wurdest verurteilt, wegen Weltraumpiraterie um genau zu sein!"
+              ],
+              "responses": [
+                [
+                  "Und wie lange bin ich schon hier?",
+                  "Seit wann bin ich hier?"
+                ]
+              ],
+              "func_kw": [0],
+              "following": [
+                {
+                  "other": [
+                    "Gestern Abend wurdest du in deine Zelle gebracht.",
+                    "Seit gestern, da wurdest du hier eingesperrt."
+                  ],
+                  "responses": [
+                    [
+                      "Wie lange muss ich denn dann absitzten?",
+                      "Und wie hart ist meine Strafe?"
+                    ]
+                  ],
+                  "func_kw": [0],
+                  "following": [
+                    {
+                      "other": [
+                        "Das hängt ganz von dir ab.",
+                        "Das kann ich dir so nicht veraten, das ist ganz alleine deine Sache."
+                      ],
+                      "responses": [
+                        [
+                          "Hmm, okay danke.",
+                          "Okay, danke für deine Auskunft."
+                        ]
+                      ],
+                      "func_kw": [0],
+                      "following": [
+                        {
+                          "other": [
+                            "So, ich muss jetzt erstmal gehen oder hast du noch eine wichtige Frage?",
+                            "Ich wünsche dir dann erstmal einen erträglichen Aufenthalt, es sei denn du benötigst noch irgendwelche Hilfe."
+                          ],
+                          "responses": [
+                            [
+                              "Ich denke, ich finde das ganze schon alleine heraus.",
+                              "Ich schaffe das schon selbst."
+                            ],
+                            [
+                              "So ein paar Infos wären schon ganz nett.",
+                              "Kannst du mir zumindest ein bisschen was an Infos geben?"
+                            ]
+                          ],
+                          "func_kw": [0, 0],
+                          "following": [
+                            {
+                              "other": [
+                                "Dann auf Wiedersehen.",
+                                "Dann mal ciao.",
+                                "Damm bis bald."
+                              ],
+                              "responses": [
+                                ["(Spiel starten)"]
+                              ],
+                              "following": [
+                                {
+                                  "other": [
+                                    "DEBUG OTHER"
+                                  ],
+                                  "responses": [
+                                    "DEBUG RESPONSE"
+                                  ],
+                                  "following": [],
+                                  "func_kw": [0]
+                                }
+                              ],
+                              "func_kw": ["start"]
+                            },
+                            {
+                              "other": [
+                                "Na gut, also bewegen kannst du dich entweder durch das Klicken auf die Pfeile oder per Tastatureingabe, also mit WASD oder den Pfeiltasten."
+                              ],
+                              "responses": [
+                                [
+                                  "Okay.",
+                                  "Aha.",
+                                  "Verstehe.",
+                                  "Gut zu wissen.",
+                                  "Danke für die Info."
+                                ]
+                              ],
+                              "func_kw": [0],
+                              "following": [
+                                {
+                                  "other": [
+                                    "Du kannst auch mit diversen Objekten oder Personen interagieren, klicke sie dafür einfach an."
+                                  ],
+                                  "responses": [
+                                    [
+                                      "Okay.",
+                                      "Aha.",
+                                      "Verstehe.",
+                                      "Gut zu wissen.",
+                                      "Danke für die Info."
+                                    ]
+                                  ],
+                                  "func_kw": [0],
+                                  "following": [
+                                    {
+                                      "other": [
+                                        "Räume betrittst du übrigens einfach durch das Klicken auf die Tür, vorausgesetzt du hast Zugang dazu. Wenn du ihn nicht betreten kannst, dann bist du wohl noch nicht so weit."
+                                      ],
+                                      "responses": [
+                                        [
+                                          "Dankeschön, den Rest finde ich selbst heraus."
+                                        ],
+                                        [
+                                          "Und was ist meine Aufgabe?",
+                                          "Was soll ich denn in der Zeit machen, die ich hier absitze?"
+                                        ]
+                                      ],
+                                      "func_kw": [0, 0],
+                                      "following": [
+                                        {
+                                          "other": [
+                                            "Dann auf Wiedersehen.",
+                                            "Dann mal ciao.",
+                                            "Damm bis bald."
+                                          ],
+                                          "responses": [
+                                            ["(Spiel starten)"]
+                                          ],
+                                          "following": [
+                                            {
+                                              "other": [
+                                                "DEBUG OTHER"
+                                              ],
+                                              "responses": [
+                                                "DEBUG RESPONSE"
+                                              ],
+                                              "following": [],
+                                              "func_kw": [0]
+                                            }
+                                          ],
+                                          "func_kw": ["start"]
+                                        },
+                                        {
+                                          "other": [
+                                            "Wenn du wieder etwas sehen kannst und dich fit genug fühlst, schaue dich sorgfälltig in den Räumen um und achte auf versteckte Botschaften."
+                                          ],
+                                          "responses": [
+                                            [
+                                              "Und was soll ich damit?",
+                                              "Aber was bringt mir das?"
+                                            ]
+                                          ],
+                                          "func_kw": [0],
+                                          "following": [
+                                            {
+                                              "other": [
+                                                "Die Ohnmacht macht dir wohl noch zu schaffen? Was will man wohl mit Rätseln machen, richtig, du löst sie. Wenn das geschaft ist, gehst du zu Mr. James in der Kantine und gibst ihm die Lösung."
+                                              ],
+                                              "responses": [
+                                                ["Aber was bringt mir das?"]
+                                              ],
+                                              "func_kw": [0],
+                                              "following": [
+                                                {
+                                                  "other": [
+                                                    "Wenn du nett zu Mr. James bist und das Rätsel richtig löst, dann gibt er dir Zugang zu einem neuen Raum. Das ist wichtig, da du zum Ausbrechen 4 Zigaretten sammeln musst, welche in den Zellen verteilt sind."
+                                                  ],
+                                                  "responses": [
+                                                    ["Ich kann also ausbrechen?"]
+                                                  ],
+                                                  "func_kw": [0],
+                                                  "following": [
+                                                    {
+                                                      "other": [
+                                                        "Ja genau, aber pass auf, löst du ein Rätsel 3 mal hintereinander falsch, wars das mit dir. Doch mach dir nicht so große Sorgen, Mr. James hilft dir, wen du nicht weiterkommst."
+                                                      ],
+                                                      "responses": [
+                                                        ["Danke für die Erklärung, dann breche ich mal aus!"]
+                                                      ],
+                                                      "func_kw": [0],
+                                                      "following": [
+                                                        {
+                                                          "other": [
+                                                            "Das wirst du wohl kaum schaffen, auf Wiedersehen.",
+                                                            "Das wirst du wohl kaum schaffen, Ciao.",
+                                                            "Das wirst du wohl kaum schaffen, bis bald."
+                                                          ],
+                                                          "responses": [
+                                                            ["(Spiel starten)"]
+                                                          ],
+                                                          "following": [
+                                                            {
+                                                              "other": [
+                                                                "DEBUG OTHER"
+                                                              ],
+                                                              "responses": [
+                                                                "DEBUG RESPONSE"
+                                                              ],
+                                                              "following": [],
+                                                              "func_kw": [0]
+                                                            }
+                                                          ],
+                                                          "func_kw": ["start"]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+"other": [
+        "Das ist ganz normal, du wirst bald wieder sehen können.",
+        "Das geht wieder weg."
+      ],
+      "responses": [
+        [
+          "Und wo bin ich?",
+          "Wo befinde ich mich denn?"
+        ]
+      ],
+      "func_kw": [0],
+      "following": [
+        {
+          "other": [
+            "Du kennst mich nicht, und das wirst du auch nie. Ich bleibe für dich unbekannt."
+          ],
+          "responses": [
+            [
+              "Warum denn im Gefängnis?",
+              "Was habe ich denn gemacht?"
+            ]
+          ],
+          "func_kw": [0],
+          "following": [
+            {
+              "other": [
+                "Du errinnerst dich nicht? Du wurdest wegen Weltraumpiraterie verurteilt!",
+                "Du wurdest verurteilt, wegen Weltraumpiraterie um genau zu sein!"
+              ],
+              "responses": [
+                [
+                  "Und wie lange bin ich schon hier?",
+                  "Seit wann bin ich hier?"
+                ]
+              ],
+              "func_kw": [0],
+              "following": [
+                {
+                  "other": [
+                    "Gestern Abend wurdest du in deine Zelle gebracht.",
+                    "Seit gestern, da wurdest du hier eingesperrt."
+                  ],
+                  "responses": [
+                    [
+                      "Wie lange muss ich denn dann absitzten?",
+                      "Und wie hart ist meine Strafe?"
+                    ]
+                  ],
+                  "func_kw": [0],
+                  "following": [
+                    {
+                      "other": [
+                        "Das hängt ganz von dir ab.",
+                        "Das kann ich dir so nicht veraten, das ist ganz alleine deine Sache."
+                      ],
+                      "responses": [
+                        [
+                          "Hmm, okay danke.",
+                          "Okay, danke für deine Auskunft."
+                        ]
+                      ],
+                      "func_kw": [0],
+                      "following": [
+                        {
+                          "other": [
+                            "So, ich muss jetzt erstmal gehen oder hast du noch eine wichtige Frage?",
+                            "Ich wünsche dir dann erstmal einen erträglichen Aufenthalt, es sei denn du benötigst noch irgendwelche Hilfe."
+                          ],
+                          "responses": [
+                            [
+                              "Ich denke, ich finde das ganze schon alleine heraus.",
+                              "Ich schaffe das schon selbst."
+                            ],
+                            [
+                              "So ein paar Infos wären schon ganz nett.",
+                              "Kannst du mir zumindest ein bisschen was an Infos geben?"
+                            ]
+                          ],
+                          "func_kw": [0, 0],
+                          "following": [
+                            {
+                              "other": [
+                                "Dann auf Wiedersehen.",
+                                "Dann mal ciao.",
+                                "Damm bis bald."
+                              ],
+                              "responses": [
+                                ["(Spiel starten)"]
+                              ],
+                              "following": [
+                                {
+                                  "other": [
+                                    "DEBUG OTHER"
+                                  ],
+                                  "responses": [
+                                    "DEBUG RESPONSE"
+                                  ],
+                                  "following": [],
+                                  "func_kw": [0]
+                                }
+                              ],
+                              "func_kw": ["start"]
+                            },
+                            {
+                              "other": [
+                                "Na gut, also bewegen kannst du dich entweder durch das Klicken auf die Pfeile oder per Tastatureingabe, also mit WASD oder den Pfeiltasten."
+                              ],
+                              "responses": [
+                                [
+                                  "Okay.",
+                                  "Aha.",
+                                  "Verstehe.",
+                                  "Gut zu wissen.",
+                                  "Danke für die Info."
+                                ]
+                              ],
+                              "func_kw": [0],
+                              "following": [
+                                {
+                                  "other": [
+                                    "Du kannst auch mit diversen Objekten oder Personen interagieren, klicke sie dafür einfach an."
+                                  ],
+                                  "responses": [
+                                    [
+                                      "Okay.",
+                                      "Aha.",
+                                      "Verstehe.",
+                                      "Gut zu wissen.",
+                                      "Danke für die Info."
+                                    ]
+                                  ],
+                                  "func_kw": [0],
+                                  "following": [
+                                    {
+                                      "other": [
+                                        "Räume betrittst du übrigens einfach durch das Klicken auf die Tür, vorausgesetzt du hast Zugang dazu. Wenn du ihn nicht betreten kannst, dann bist du wohl noch nicht so weit."
+                                      ],
+                                      "responses": [
+                                        [
+                                          "Dankeschön, den Rest finde ich selbst heraus."
+                                        ],
+                                        [
+                                          "Und was ist meine Aufgabe?",
+                                          "Was soll ich denn die Zeit über machen, die ich hier absitze?"
+                                        ]
+                                      ],
+                                      "func_kw": [0, 0],
+                                      "following": [
+                                        {
+                                          "other": [
+                                            "Dann auf Wiedersehen.",
+                                            "Dann mal ciao.",
+                                            "Damm bis bald."
+                                          ],
+                                          "responses": [
+                                            ["(Spiel starten)"]
+                                          ],
+                                          "following": [
+                                            {
+                                              "other": [
+                                                "DEBUG OTHER"
+                                              ],
+                                              "responses": [
+                                                "DEBUG RESPONSE"
+                                              ],
+                                              "following": [],
+                                              "func_kw": [0]
+                                            }
+                                          ],
+                                          "func_kw": ["start"]
+                                        },
+                                        {
+                                          "other": [
+                                            "Wenn du wieder etwas sehen kannst und dich fit genug fühlst, schaue dich sorgfälltig in den Räumen um und achte auf versteckte Botschaften."
+                                          ],
+                                          "responses": [
+                                            [
+                                              "Und was soll ich damit?",
+                                              "Aber was bringt mir das?"
+                                            ]
+                                          ],
+                                          "func_kw": [0],
+                                          "following": [
+                                            {
+                                              "other": [
+                                                "Die Ohnmacht macht dir wohl noch zu schaffen? Was will man wohl mit Rätseln machen, richtig, du löst sie. Wenn das geschaft ist, gehst du zu Mr. James in der Kantine und gibst ihm die Lösung."
+                                              ],
+                                              "responses": [
+                                                ["Aber was bringt mir das?"]
+                                              ],
+                                              "func_kw": [0],
+                                              "following": [
+                                                {
+                                                  "other": [
+                                                    "Wenn du nett zu Mr. James bist und das Rätsel richtig löst, dann gibt er dir Zugang zu einem neuen Raum, das ist wichtig, da du zum Ausbrechen 4 Zigaretten sammeln musst, welche in den Zellen verteilt sind."
+                                                  ],
+                                                  "responses": [
+                                                    ["Ich kann also ausbrechen?"]
+                                                  ],
+                                                  "func_kw": [0],
+                                                  "following": [
+                                                    {
+                                                      "other": [
+                                                        "Ja genau, aber pass auf, löst du ein Rätsel 3 mal hintereinander falsch, wars das mit dir. Doch mach dir nicht so große Sorgen, Mr. James hilft dir, wen du nicht weiterkommst."
+                                                      ],
+                                                      "responses": [
+                                                        ["Danke für die Erklärung, dann breche ich mal aus!"]
+                                                      ],
+                                                      "func_kw": [0],
+                                                      "following": [
+                                                        {
+                                                          "other": [
+                                                            "Das wirst du wohl kaum schaffen, auf Wiedersehen.",
+                                                            "Das wirst du wohl kaum schaffen, ciao.",
+                                                            "Das wirst du wohl kaum schaffen, bis bald."
+                                                          ],
+                                                          "responses": [
+                                                            ["(Spiel starten)"]
+                                                          ],
+                                                          "following": [
+                                                            {
+                                                              "other": [
+                                                                "DEBUG OTHER"
+                                                              ],
+                                                              "responses": [
+                                                                "DEBUG RESPONSE"
+                                                              ],
+                                                              "following": [],
+                                                              "func_kw": [0]
+                                                            }
+                                                          ],
+                                                          "func_kw": ["start"]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
