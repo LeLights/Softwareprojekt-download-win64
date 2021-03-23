@@ -54,6 +54,16 @@
           ],
           "following": [],
           "func_kw": [0]
+        },
+        {
+          "other": [
+            "DEBUG OTHER"
+          ],
+          "responses": [
+            "DEBUG RESPONSE"
+          ],
+          "following": [],
+          "func_kw": [0]
         }
       ],
       "func_kw": ["hint", "close", "onpolite_and_close_5"]

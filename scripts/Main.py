@@ -304,7 +304,7 @@ class Main(Node2D):
 
 	# Function to check if an Password-Input is the right one
 	def call_check(self, answer):
-		self.scene.modulate = Color(1.0, 1.0, 1.0, 1.0)					  	# Darken the Scene
+		self.scene.modulate = Color(1.0, 1.0, 1.0, 1.0)					  	# Reset the brightness of background
 		riddle_str = self.Player.get_current_riddle()						# Getting current Riddle-String
 		self.close(self.ui)													# Closing Input
 
@@ -439,7 +439,7 @@ class Main(Node2D):
 		debug("con", "Added a image node as a child of given scene node")
 		return new_image
 
-	# Function to add an PriorityImage
+	# Function to add a PriorityImage
 	def add_priority_image(self, TextureFromRes , x=DEFAULT_RESOLUTION.x/2 , y=DEFAULT_RESOLUTION.y/2):
 		if self.priority_image is None and not self.freeze:									# Checking for barrier
 			self.scene.modulate = Color(0.1, 0.1, 0.1, 1)									# Darken the current Scene
@@ -447,7 +447,7 @@ class Main(Node2D):
 			if DEBUGGING: print("Opened new priority Image " + str(self.priority_image))
 			return self.priority_image
 
-	# Function to add an Text
+	# Function to add a Text
 	def add_label(self, text, scene=None, x=0, y=0):
 		if scene is None: scene = self.scene			# Setting Scene if none was given
 		pos = self.convert_pos(x, y)					# Converting the given position to Vector
@@ -459,7 +459,7 @@ class Main(Node2D):
 		debug("con", "Added a label node with text: '" + text + "' as a child of given scene node")
 		return label
 
-	# Function to add an TextButton
+	# Function to add a TextButton
 	def add_text_input(self, scene=None, x=0, y=0, event="text_entered"):
 		if scene is None: scene = self						# Setting Scene if none was given
 		pos = self.convert_pos(x, y)						# Converting the given position to Vector
