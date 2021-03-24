@@ -47,6 +47,16 @@
         },
         {
           "other": [
+            "Berechne die Diagonale mit Pythagoras."
+          ],
+          "responses": [
+            ["Danke dir für den Hinweis. (verlassen)"]
+          ],
+          "following": [],
+          "func_kw": [0]
+        },
+        {
+          "other": [
             "DEBUG OTHER"
           ],
           "responses": [
